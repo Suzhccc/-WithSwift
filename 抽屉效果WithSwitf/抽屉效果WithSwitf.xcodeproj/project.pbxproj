@@ -17,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		772A36711C586E9C0020DB78 /* SSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSExtension.swift; sourceTree = "<group>"; };
+		772A36731C586FEC0020DB78 /* 抽屉效果WithSwitf-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "抽屉效果WithSwitf-Bridging-Header.h"; sourceTree = "<group>"; };
 		775DBC551C2D53AB00C9A954 /* 抽屉效果WithSwitf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽屉效果WithSwitf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		775DBC581C2D53AB00C9A954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		775DBC5A1C2D53AB00C9A954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 				775DBC5F1C2D53AB00C9A954 /* Assets.xcassets */,
 				775DBC611C2D53AB00C9A954 /* LaunchScreen.storyboard */,
 				775DBC641C2D53AB00C9A954 /* Info.plist */,
+				772A36731C586FEC0020DB78 /* 抽屉效果WithSwitf-Bridging-Header.h */,
 			);
 			path = "抽屉效果WithSwitf";
 			sourceTree = "<group>";
