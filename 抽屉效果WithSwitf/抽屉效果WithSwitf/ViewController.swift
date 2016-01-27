@@ -54,9 +54,9 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         case .Began: print("手势开始")
         case .Ended: print("手势结束---")
         var target = 0;
-        if redView.frame.origin.x > AppDelegate().getMainScreenBouns().size.width * 0.3 {
+        if redView.frame.origin.x > SSExtension().getMainScreenBouns().size.width * 0.3 {
             target = 300;
-        } else if CGRectGetMaxX(redView.frame) < AppDelegate().getMainScreenBouns().size.width * 0.7 {
+        } else if CGRectGetMaxX(redView.frame) < SSExtension().getMainScreenBouns().size.width * 0.7 {
             target = -300;
             }
             UIView.animateWithDuration(0.5, animations: { () -> Void in
@@ -88,8 +88,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         
         var tempFrame = redView.frame
         tempFrame.origin.x += offset
-        tempFrame.origin.y = fabs(tempFrame.origin.x * 100 / AppDelegate().getMainScreenBouns().size.width)
-        tempFrame.size.height = AppDelegate().getMainScreenBouns().size.height - 2 * tempFrame.origin.y
+        tempFrame.origin.y = fabs(tempFrame.origin.x * 100 / SSExtension().getMainScreenBouns().size.width)
+        tempFrame.size.height = SSExtension().getMainScreenBouns().size.height - 2 * tempFrame.origin.y
         
         return tempFrame
         

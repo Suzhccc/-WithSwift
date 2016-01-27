@@ -45,10 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
     
-    //获取bounds
-    func getMainScreenBouns() -> CGRect {
-        return UIScreen.mainScreen().bounds
-    }
+    
 
 
 }
